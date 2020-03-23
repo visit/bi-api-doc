@@ -12,6 +12,6 @@ Lastest updates important information
 * BREAKING CHANGE The SearchAfterReservation operation is removed, use FindFirstAfter to find a starting point by date and GetMany to fetch reservations instead.
 * BREAKING CHANGE SequenceId replaces ReservationVersionId in GetMany to simplify usage since ReservationVersionId is not sequential in nature. To continue retrieving reservations from a previous implementation, call GetData with your latest ReservationVersionId, note the SequenceId and use that from now on.
 * BREAKING CHANGE Corrected Name/Value field on ComplementBase which were accidentally swapped.
-Added TrackingId - user defined tracking id from the booking client.
-Added ClientConfirmationPdfUrl - downloadable client confirmation PDF.
-Added CrmAnswers - a list of the answers to the customizable customer questions.
+* Added TrackingId - user defined tracking id from the booking client.
+* Added ClientConfirmationPdfUrl - downloadable client confirmation PDF.
+* Added CrmAnswers - a list of the answers to the customizable customer questions.
