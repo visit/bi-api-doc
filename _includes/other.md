@@ -1,9 +1,8 @@
 # Other types
 ProducttypeType
 The type is described by an int. Although it is unique, the subtype depends on the category. If you need for more types than accommodation, let the Citybreak team know. 
-
-**Accommodation** 
-Type | Id
+ 
+**Accommodation** Type | Id
 -------- | --------
 Hotel room | 11 
 Other | 12
@@ -19,45 +18,34 @@ Private Cabin | 21
 Camping spot | 2
 Game reserve | 23
 
-**Event**
-
-Type | Id
+**Event** Type | Id
 -------- | --------
-| 31
-Event
+Event | 31
 
-**Transport**
-51
-Ferry
-52
-Public transport
-53
-Flight
-54
-Other
-55
-Bus
-56
-Transfer
-57
-Cruise
+**Transport** Type | Id
+-------- | --------
+Ferry | 51
+Public transport | 52
+Flight | 53
+Other | 54
+Bus | 55
+Transfer | 56
+Cruise | 57
 
-**Activity**
-71
-Activity
+**Activity** Type | Id
+-------- | --------
+Activity | 71
 
-**Other**
-91
-Other
-92
-Food
-93
-Car rental
+**Other** Type | Id
+-------- | --------
+Other  | 91
+Food | 92
+Car rental | 93
 
-**Golf**
-111
-Green fee
+**Golf** Type | Id
+-------- | --------
+Green fee | 111
 
-**Merchandise**
-131
-Merchandise
+**Merchandise** Type | Id
+-------- | --------
+Merchandise | 131
