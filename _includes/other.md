@@ -2,37 +2,31 @@
 ProducttypeType
 The type is described by an int. Although it is unique, the subtype depends on the category. If you need for more types than accommodation, let the Citybreak team know. 
 
-Accommodation
-11
-Hotel room
-12
-Other
-13
-Cabin
-14
-Extrabed (only used a sub product)
-15
-Apartment
-16
-Bed & Breakfast
-17
-Guesthouse
-18
-Holiday house
-19
-Hostel bed
-20
-Hostel room
-21 
-Private Cabin
-22
-Camping spot
-23
-Game reserve
+**Accommodation** 
+Type | Id
+-------- | --------
+Hotel room | 11 
+Other | 12
+Cabin | 13
+Extrabed (sub product) | 14
+Apartment | 15
+Bed & Breakfast | 16
+Guesthouse | 17
+Holiday house | 18
+Hostel bed | 19
+Hostel room | 20
+Private Cabin | 21 
+Camping spot | 2
+Game reserve | 23
+
+**Event**
+
+Type | Id
+-------- | --------
+| 31
 Event
-31
-Event
-Transport
+
+**Transport**
 51
 Ferry
 52
@@ -47,19 +41,23 @@ Bus
 Transfer
 57
 Cruise
-Activity
+
+**Activity**
 71
 Activity
-Other
+
+**Other**
 91
 Other
 92
 Food
 93
 Car rental
-Golf
+
+**Golf**
 111
 Green fee
-Merchandise
+
+**Merchandise**
 131
 Merchandise
