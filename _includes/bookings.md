@@ -43,7 +43,8 @@ This result object simply wraps the BookingInformationResult object(s). We commu
        /// The key expire date.
        /// </value>
        public DateTime KeyExpireDate { get; set; }
-      ```
+```
+      
 The enumeration AuthenticationStatus contains the status of the authentication. If the status is different from Ok, the BookingResult property is empty.
 
 ```
@@ -67,10 +68,11 @@ The enumeration AuthenticationStatus contains the status of the authentication. 
        /// </summary>
        ApiKeyExpired = 3,
     }
-    ```
+```
     
 ## BookingInformationResult object
 The booking information result object simply wraps a BookingInformation object. We communicate the result of the retrieval through this object. The class contains three fields.
+
 ```
        /// <summary>
        /// Gets or sets the booking if the status of the retrieval was Ok
@@ -87,8 +89,10 @@ The booking information result object simply wraps a BookingInformation object. 
        /// The retrieval status.
        /// </value>
        public BookingRetrievalStatus RetrievalStatus { get; set; }
-       ```
+```
+
 The enumeration BookingRetrievalStatus contains the status of the retrieval. If the status is different from Ok, the Booking property is empty.
+
 ```
    /// <summary>
    /// Tells the status of the operation retrieve a booking
@@ -115,7 +119,8 @@ The enumeration BookingRetrievalStatus contains the status of the retrieval. If 
        /// </summary>
        Delayed = 5,
     }
-    ```
+```
+
 The fail represents a state where we were unable to deliver the result of the booking. This simply means that you can't get the result. You should however not be dependent on it. There will be a successor if booking version if changes should be communicated. If you feel that you are missing out of something, please contact Citybreak Support that will take it further.
 
 ## BookingInformation object
@@ -123,14 +128,14 @@ This is the container for all information for a specific version of a booking.
 
 Entity | Description
 -------- | --------
-Fees |
-ReservationVersionId | 
+Fees | Booking fees
+ReservationVersionId | Uniqe reservation id
 Booking code | The booking code on the format AAAA01.
 Booking date | The date and time the booking was committed into a reservation. 
 Status | The status indication of the booking.
-New | 
-Changed | 
-Cancelled |
+New | New booking
+Changed | Changed booking
+Cancelled | Cancelled booking
 Agent | The agent of this booking. 
 Supplier | A list of suppliers that are included in this version.
 SellerOrganization | Information about the organizer/seller organization/channel owner. (Different names for the same entity)
@@ -148,7 +153,7 @@ BookingDiscountInfo | Information about discounts handed out by the Seller organ
 AgentReference | Text information, usually a name, in the case of an agent organization calls in to the call center who commits the booking by proxy for the agent.
 Package | Information about the package that was referenced in this booking. If no package were used, this field is undefined.
 NetWorth | Shortcut to get the net worth of the booking for the seller organization.
-GroupReferenceName | 
+GroupReferenceName | Groupe referenace name
 TrackingId | User-defined tracking value from the booking client
 ClientConfirmationPdfUrl | A URL to the downloadable client confirmation PDF
 
@@ -164,15 +169,13 @@ A product that is associated with a MainProduct.
 
 The base class for MainProduct and SubProduct. 
 
-
 Entity | Description
 -------- | --------
-
 Id | A unique id of this item in the context of this booking. The product will keep the id in all versions of a booking, but is not globally unique outside the context of this booking (booking code).
 Organizer | Summary of the organizers economic information for the organizer.
 Agent | Summary of the organizers economic information for the agent.
 Supplier | Summary of the organizers economic information for the supplier.
-SubSupplier | In some sales models a sub supplier is incorporated. This is currently representing like a private owner of a cottage for instance. 
+SubSupplier | In some sales models a sub supplier is incorporated. This is currently representing like a private owner of a cottage for instance.
 DateSpan | The date span in which this product is used.
 GuestLinks | Information about the guests that are using this product.
 Status | The status of this item in this version.
