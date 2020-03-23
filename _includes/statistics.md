@@ -25,18 +25,18 @@ This is done by adding all products from version 1. When version 2 is recorded, 
 * **Version 2 created at t2 the double room was changed to Jan 5 to Jan 6, and a single room was added Jan 6 to Jan 10.**
 
 **At t1 the reservation summary went:**
-```
+``
 +1 product
 +9 room nights
-```
+``
 
 **At t2 the reservation summary went:**
-```
+``
 -1 product
 -9 room nights 
 +2 products
 +4 +1 room nights
-```
+``
 * A report for a period only including t1 will report +1 product and +9 room nights.
 * A report for a period only including t2 will report +1 product and -4 room nights.
 * A report for a period including both periods will report +2 products and 5 room nights.
