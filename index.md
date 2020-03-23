@@ -11,8 +11,11 @@ toc_footers:
 
 includes:
   - intro
-  - example
-  - errors
+  - endpoints
+  - bookings
+  - statistics
+  - other
+  
 
 search: true
 ---
