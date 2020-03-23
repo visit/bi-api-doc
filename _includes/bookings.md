@@ -178,10 +178,7 @@ Supplier | Summary of the organizers economic information for the supplier.
 SubSupplier | In some sales models a sub supplier is incorporated. This is currently representing like a private owner of a cottage for instance.
 DateSpan | The date span in which this product is used.
 GuestLinks | Information about the guests that are using this product.
-Status | The status of this item in this version.
-- New
-- NotChanged
-- Cancelled
+Status | The status of this item in this version. Sample: New, NotChanged or Cancelled
 DateStamp | When the product was added to the basket.
 RateCode | Information about the rate code that was used to defined the rate used to booking this item. 
 RemoteId | A reference to an external system.
