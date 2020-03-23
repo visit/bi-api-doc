@@ -2,10 +2,10 @@
 
 The service is available under SSL for soap web calls and also as a REST service for XML.
 
-The service is found at https://statfeed-api-v5.citybreak.com/BookingInformationService.svc
+The service is found at <https://statfeed-api-v5.citybreak.com/BookingInformationService.svc>
 
-Soap WSDL https://statfeed-api-v5.citybreak.com/BookingInformationService.svc?singleWsdl
-XML Rest service https://statfeed-api-v5.citybreak.com/BookingInformationService.svc/xml/help
+(Soap WSDL)<https://statfeed-api-v5.citybreak.com/BookingInformationService.svc?singleWsdl>
+(XML Rest service)<https://statfeed-api-v5.citybreak.com/BookingInformationService.svc/xml/help>
 
 ## Methods
 
