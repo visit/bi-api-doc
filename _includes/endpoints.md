@@ -26,6 +26,7 @@ start	| date (yyyy-MM-dd HH:mm) to search from.
 
 This method enables you to find a starting point to retrieve booking data, it takes a start date and will return a SequenceId which you can use in the GetMany operation.
 
+```
 public class SearchHit {
    /// <summary>
    /// The date the booking was made.
@@ -52,6 +53,7 @@ public class SearchHit {
    /// </summary>
    public string BookingCode;
 }
+```
 
 ### GetMany
 
