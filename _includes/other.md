@@ -1,5 +1,6 @@
 # Other types
-ProducttypeType
+
+## ProducttypeType
 The type is described by an int. Although it is unique, the subtype depends on the category. If you need for more types than accommodation, let the Citybreak team know. 
  
 **Accommodation** Type | Id
