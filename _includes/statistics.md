@@ -1,4 +1,6 @@
-# Creating statistics from booking versions
+# Statistics
+
+Creating statistics from booking versions
 
 ## Views
 What you are probably looking for is to take some sort of action depending on the data you download. If you are doing operational reports, like an arrival list to see who is arriving today, who is staying and who is leaving you are only interested in the latest version of a booking code. This is known as a Net List.
