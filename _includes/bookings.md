@@ -1,4 +1,4 @@
-# Citybreak bookings
+# Bookings
 
 When a booking is committed in Citybreak, a booking version is created. That version is assigned a globally unique id, known as bookingVersionId or reservationVersionId. The booking is also assigned a booking code. The format is four letters and two digits (ex AAAA01). That particular version is datestamped when it was committed into a reservation. This is known by the BookingDate. 
 
