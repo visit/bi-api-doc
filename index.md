@@ -2,7 +2,7 @@
 title: Visit Documentation Template
 
 language_tabs:
-  - csharp
+  - C#
 
 toc_footers:
   - <a href='https://help.citybreak.com/'>Citybreak Support</a> 
