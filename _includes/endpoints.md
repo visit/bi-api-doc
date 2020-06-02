@@ -1,4 +1,4 @@
-# End points
+# Endpoints
 
 The service is available under SSL for soap web calls and also as a REST service for XML.
 
@@ -26,7 +26,7 @@ start	| date (yyyy-MM-dd HH:mm) to search from.
 
 This method enables you to find a starting point to retrieve booking data, it takes a start date and will return a SequenceId which you can use in the GetMany operation.
 
-```
+```csharp
 public class SearchHit {
    /// <summary>
    /// The date the booking was made.
