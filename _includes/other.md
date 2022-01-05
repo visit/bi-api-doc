@@ -31,7 +31,6 @@ Flight | 53
 Other | 54
 Bus | 55
 Transfer | 56
-Cruise | 57
 
 **Activity** Type | Id
 -------------------- | --
