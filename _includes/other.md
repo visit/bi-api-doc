@@ -30,7 +30,6 @@ Public transport | 52
 Flight | 53
 Other | 54
 Bus | 55
-Transfer | 56
 
 **Activity** Type | Id
 -------------------- | --
