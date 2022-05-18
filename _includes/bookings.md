@@ -213,3 +213,4 @@ ProducttypeType | An int which could be decoded to find the system type of the p
 Category | The system category the product belongs to. See the enum for values.
 ProducttypeGroupId | The id of the productgroup that the producttype belongs to. For instance a double room belongs to a producttype group, for instance "Hotel 11". This field will hold the globally unique identifier for "Hotel 11". That group could be found in BookingInformation.ProductGroup
 DescriptionInfo | Additional information that a sub system may know of this product. It is typed and dependent on the underlying sub system.
+ExternalBookingNumber | An optional reference to an external system's booking.
