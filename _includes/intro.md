@@ -2,9 +2,6 @@
 
 The objective of **Citybreak BI API** is to enable external partners to get hold of the booking data for external analysis. Applications such as BI-analysis tools could be built upon the data.
 
-## Description
-
-
 ## Release notes
 
 Lastest updates important information
@@ -18,3 +15,4 @@ Lastest updates important information
 * Added TrackingId - user defined tracking id from the booking client.
 * Added ClientConfirmationPdfUrl - downloadable client confirmation PDF.
 * Added CrmAnswers - a list of the answers to the customizable customer questions.
+* Added ExternalBookingNumber - an optional reference to an external system's booking.
