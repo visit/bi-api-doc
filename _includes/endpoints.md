@@ -17,9 +17,10 @@ The methods provided enables you to download information about bookings.
 ### FindFirstAfter
 
 public BookingSearchHit FindFirstAfter(string authToken, DateTime start);
-``
+```
 /BookingInformationService.svc/xml/findfirstafter/{AUTHTOKEN}/{START}
-``
+/api/bookings/findfirstafter/{start}
+```
 
 Parameter |	Description
 --------- | ---------
@@ -63,6 +64,7 @@ public GetManyResult GetMany(
    string authToken, int sequenceIdToStartWith, int numberOfItems, int numberOfItemsToSkip);
 ``
 /BookingInformationService.svc/xml/getmany/{AUTHTOKEN}/{SEQUENCEIDTOSTARTWITH}/{NUMBEROFITEMS}/{NUMBEROFITEMSTOSKIP}
+/api/bookings/getmany/{sequenceIdToStartWith}/{numberOfItems}/{numberOfItemsToSkip}
 ``
 
 Returns a list of bookings from a SequenceId, pass 0 to receive the first batch of bookings. To continue batch retrieving data, pass the last booking's SequenceId you received as sequenceIdToStartWith in subsequent calls. numberOfItemsToSkip should be set to 0 for single threaded batching. To enable multi threaded batching you can for example do four requests in parallel with the same sequenceIdToStartWith and 10 numberOfItems but with 0, 10, 20 and 30 numberOfItemsToSkip respectively.
@@ -73,6 +75,7 @@ NB! This method could potentially return a great chunk of data. Please leave num
 public GetDataResult GetData(string authToken, int reservationVersion);
 ``
 /BookingInformationService.svc/xml/get/{authToken}/{reservationVersion}
+/api/bookings/get/{reservationVersion}
 ``
 
 This method gets the interior of a single booking.
