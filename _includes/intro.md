@@ -3,7 +3,6 @@
 The objective of **Citybreak BI API** is to enable external partners to get hold of the booking data for external analysis. Applications such as BI-analysis tools could be built upon the data.
 
 ## Release notes
-
 ### BI API version 5
 * BREAKING CHANGE The authentication return status codes are now moved from the existing Status field to AuthenticationStatus on a new result wrapper type to better indicate failed or expired authentication keys. The existing Status is renamed RetrievalStatus to clarify the difference.
 * BREAKING CHANGE The GetManyAfterReservationId operation is renamed GetMany.
