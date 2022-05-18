@@ -1,12 +1,14 @@
 # Endpoints
 
-The service is available under SSL for soap web calls and also as a REST service for XML.
+The service is available via several protocols. A JSON-based OpenAPI service, a SOAP-compatible .NET WCF service and also an XML REST service.
 
-The service is found at <https://statfeed-api-v5.citybreak.com/BookingInformationService.svc>
+[JSON-based OpenAPI service](https://statfeed-api-v5.citybreak.com/)
 
-[Soap WSDL](https://statfeed-api-v5.citybreak.com/BookingInformationService.svc?singleWsdl)
+[.NET WCF service](https://statfeed-api-v5.citybreak.com/BookingInformationService.svc)
 
-[XML Rest service](https://statfeed-api-v5.citybreak.com/BookingInformationService.svc/xml/help)
+[SOAP WSDL service](https://statfeed-api-v5.citybreak.com/BookingInformationService.svc?singleWsdl)
+
+[XML REST service](https://statfeed-api-v5.citybreak.com/BookingInformationService.svc/xml/help)
 
 ## Methods
 
