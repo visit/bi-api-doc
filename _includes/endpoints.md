@@ -2,7 +2,7 @@
 
 The service is available via several protocols. A JSON-based OpenAPI service, a SOAP-compatible .NET WCF service and also an XML REST service.
 
-[JSON-based OpenAPI service](https://statfeed-api-v5.citybreak.com/)
+[JSON-based OpenAPI service](https://statfeed-api-v5.citybreak.com/swagger)
 
 [.NET WCF service](https://statfeed-api-v5.citybreak.com/BookingInformationService.svc)
 
