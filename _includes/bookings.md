@@ -158,6 +158,7 @@ NetWorth | Shortcut to get the net worth of the booking for the seller organizat
 GroupReferenceName | Groupe referenace name
 TrackingId | User-defined tracking value from the booking client
 ClientConfirmationPdfUrl | A URL to the downloadable client confirmation PDF
+MyPageBookingUrl | A URL to the MyPage booking
 
 ## MainProduct
 
